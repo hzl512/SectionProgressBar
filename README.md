@@ -22,7 +22,7 @@ Android 分段 间隔 显示 进度条 Android Display progress bar at intervals
 
 ### 原理
 
-1. 获取每一秒长度的px是多少 = 测量到的自定义组件长度 / 24 x 60 x 60
+1. 获取每秒长度的像素点px是多少 = 测量到的自定义组件长度 / 24 x 60 x 60
 
 2. 需要一个起始长度，也就是每天**零点**的时间戳是多少，参数：mStartSection
 
