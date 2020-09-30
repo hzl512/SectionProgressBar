@@ -12,7 +12,7 @@ Android 分段 间隔 显示 进度条 Android Display progress bar at intervals
 3. 显示区域的数据格式（以下伪代码，就是个说明）：
 
    ```java
-   List<String> lists,{2020-09-01 00:00:00,2020-09-01 02:00:00}
+   List<String> list,{2020-09-01 00:00:00,2020-09-01 02:00:00}
    list[0]=2020-09-01 00:00:00; //开始时间
    list[1]=2020-09-01 02:00:00; //结束
    
@@ -91,3 +91,5 @@ Android 分段 间隔 显示 进度条 Android Display progress bar at intervals
 ### 遗憾
 
 其实里面还有个问题是弹出框的定位与显示问题，没找到合适的弹出方式，就先这样了~
+
+### 喜欢就给他star呗~
