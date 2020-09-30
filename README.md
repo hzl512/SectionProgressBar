@@ -92,4 +92,4 @@ Android 分段 间隔 显示 进度条 Android Display progress bar at intervals
 
 其实里面还有个问题是弹出框的定位与显示问题，没找到合适的弹出方式，就先这样了~
 
-### 喜欢就给他star呗~
+### 喜欢就给个star呗~
