@@ -1,7 +1,7 @@
 # SectionProgressBar
 Android 分段 间隔 显示 进度条 Android Display progress bar at intervals
 ### 效果图
-<img src="./images/effect.png">
+<img src="https://cdn.jsdelivr.net/gh/hzl512/SectionProgressBar/images/effect.png">
 
 ### 需求
 
