@@ -22,7 +22,7 @@ Android 分段 间隔 显示 进度条 Android Display progress bar at intervals
 
 ### 原理
 
-1. 获取平均一秒的长度px是多少 = 测量到的自定义组件长度 / 24 * 60* 60
+1. 获取每一秒长度的px是多少 = 测量到的自定义组件长度 / 24 * 60* 60
 
 2. 需要一个起始长度，也就是每天**零点**的时间戳是多少，参数：mStartSection
 
@@ -91,5 +91,9 @@ Android 分段 间隔 显示 进度条 Android Display progress bar at intervals
 ### 遗憾
 
 其实里面还有个问题是弹出框的定位与显示问题，没找到合适的弹出方式，就先这样了~
+
+### 地址
+
+https://github.com/hzl512/SectionProgressBar
 
 ### 喜欢就给个star呗~
