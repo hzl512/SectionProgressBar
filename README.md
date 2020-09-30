@@ -33,7 +33,7 @@ Android 分段 间隔 显示 进度条 Android Display progress bar at intervals
    int endSection = (int) ((timeShaftItem.getEndSection() - mStartSection) / mConvertUnit);
    ```
 
-   mConvertUnit是转换单位，这里是1000毫秒，即1秒。最后通过startSection与endSection计算每个分段要显示的报警区域：
+   mConvertUnit是转换单位，这里是1000毫秒，即1秒。最后通过startSection与endSection计算每个分段要显示的报警区域的x坐标：
 
    ```java
    int startX = (int) (startSection * mPixelsPer);
