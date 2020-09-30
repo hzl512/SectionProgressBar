@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SectionProgressbar">
+        <attr name="p_convertUnit" format="integer" /><!--  当前 progress value -->
+        <attr name="p_progressColor" format="color" /><!-- progress 进度条颜色 -->
+        <attr name="p_progressBackColor" format="color" /><!-- progress 背景颜色 -->
+        <attr name="p_shaderShow" format="boolean" /><!-- progress 是否渐变 颜色 -->
+        <attr name="p_shaderStartColor" format="color" /><!-- progress 渐变开始 颜色 -->
+        <attr name="p_shaderEndColor" format="color" /><!-- progress 渐变结束 颜色 -->
+    </declare-styleable>
+</resources>
